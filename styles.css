@@ -2570,3 +2570,27 @@ header {
 #send-btn:hover {
     background-color: #45a049;
 }
+.button-container {
+    display: flex;
+    gap: 10px; /* المسافة بين الأزرار */
+}
+
+.view-button, .download-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-button {
+    background-color: #4CAF50; /* لون زر الرؤية */
+    color: white;
+}
+
+.download-button {
+    background-color: #008CBA; /* لون زر التحميل */
+    color: white;
+    text-decoration: none; /* إزالة الخط السفلي من الرابط */
+    display: inline-block; /* جعل الرابط كزر */
+    text-align: center; /* محاذاة النص في المنتصف */
+}
