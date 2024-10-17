@@ -11,12 +11,14 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.css">
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <!-- إضافة Font Awesome إلى رأس HTML -->
@@ -42,42 +44,74 @@
             <div class="current-date" id="currentDate"></div>
         </div>
         <div class="header-content">
-            <div class="current-date" id="current-time"></div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">الرئيسية</a></li>
-                    <li><a href="#">التقييمات</a></li>
-                    <li><a href="#">الموارد التعليمية</a></li>
-                    <li><a href="#">اتصل بنا</a></li>
-                </ul>
-            </nav>
+            <div class="current-date" id="current-time"></div>            
         </div>
+        <script>
+            window.onload = function() {
+                alert("مرحباً بك في موقعنا التعليمي!");
+            };
+        </script>        
         <h1>أهلاً بك في نظامنا</h1>
         <h1>فصل 3/1</h1>
     </body>
     </header>
     <div id="particles-js"></div>
     <span id="typed"></span>
+    <div class="news-section">
+        <h2>آخر الأخبار</h2>
+        <div class="news-slider">
+            <div class="news-item">
+                <h3>أحدث التقيمات</h3>
+                <p>تم إضافة تقييمات الاسبوع الرابع <a href="https://drive.google.com/file/d/1Bg9_VwuBczdkzyg6hcGRhYzwuq_9P6Uf/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: الرياضيات</h3>
+                <p>تم إضافة كتاب الرياضيات... <a href="https://drive.google.com/file/d/1IXAqLN3_ei0luQMWxp3zKtAuRc2NaXQy/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: اللغة العربية</h3>
+                <p>تم إضافة كتاب اللغة العربية... <a href="https://drive.google.com/file/d/1Nck-xs-2GWl2-NHJ6kbXQRJ6Y5etS3Pp/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: العلوم</h3>
+                <p>تم إضافة كتاب العلوم <a href="https://drive.google.com/file/d/1yC5lzm4G-eE65-a_bKCRHEqhLvJrMbZb/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: اللغة الاجنبية</h3>
+                <p>تم إضافة كتاب الانجليزي <a href="https://drive.google.com/file/d/11KCOLtc4pSkw46mJEKW4Lz9RKovPcSh1/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: التاريخ</h3>
+                <p>تم إضافة كتاب التاريخ<a href="https://drive.google.com/file/d/1U0wsiB0SjIvHU5Vo6uB9DNqVdNlL53oL/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>أحدث كتاب: الفلسفة & المنطق</h3>
+                <p>تم إضافة كتاب الفلسفة و المنطق<a href="https://drive.google.com/file/d/1CKRru7bl_x1sRSpBoP8AGx2wz_iFk5vw/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+            <div class="news-item">
+                <h3>تحديث اداء الموقع</h3>
+                <p>شكرا لكم <a href="https://drive.google.com/file/d/1CKRru7bl_x1sRSpBoP8AGx2wz_iFk5vw/view?usp=sharing">اقرأ المزيد</a></p>
+            </div>
+        </div>
+    </div>    
     <div class="cards-section">
         <h2>الكتب المدرسية</h2>
         <div class="card-container">
             <div class="card">
                 <div class="card-icon">📚</div>
                 <h3>اللغة العربية</h3>
-<div class="button-container">
-    <a href="https://drive.google.com/file/d/1Nck-xs-2GWl2-NHJ6kbXQRJ6Y5etS3Pp/download" class="download-button">تحميل</a>
-</div>
-</div>
-<span class="rating">⭐⭐⭐⭐⭐</span>
-
+                <div class="button-container">
+                <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/1Nck-xs-2GWl2-NHJ6kbXQRJ6Y5etS3Pp/view?usp=sharing" class="download-button" download>تحميل</a>
+                </div>
+                <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
             <div class="card">
                 <div class="card-icon">📖</div>
                 <h3>الرياضيات</h3>
                 <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
+                    <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/1IXAqLN3_ei0luQMWxp3zKtAuRc2NaXQy/view?usp=sharing" class="download-button" download>تحميل</a>
                 </div>
                 <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
@@ -85,9 +119,8 @@
                 <div class="card-icon">🔬</div>
                 <h3>العلوم</h3>
                 <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
+                    <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/1yC5lzm4G-eE65-a_bKCRHEqhLvJrMbZb/view?usp=sharing" class="download-button" download>تحميل</a>
                 </div>
                 <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
@@ -95,9 +128,8 @@
                 <div class="card-icon">📖</div>
                 <h3>اللغة الإنجليزية</h3>
                 <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
+                    <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/11KCOLtc4pSkw46mJEKW4Lz9RKovPcSh1/view?usp=sharing" class="download-button" download>تحميل</a>
                 </div>
                 <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
@@ -105,29 +137,8 @@
                 <div class="card-icon">📜</div>
                 <h3>التاريخ</h3>
                 <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
-                </div>
-                <span class="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-            <div class="card">
-                <div class="card-icon">📘</div>
-                <h3>الألمانية</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
-                </div>
-                <span class="rating">⭐⭐⭐⭐⭐</span>
-            </div>
-            <div class="card">
-                <div class="card-icon">📕</div>
-                <h3>الفرنسية</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
+                    <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/1U0wsiB0SjIvHU5Vo6uB9DNqVdNlL53oL/view?usp=sharing" class="download-button" download>تحميل</a>
                 </div>
                 <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
@@ -135,81 +146,27 @@
                 <div class="card-icon">💡</div>
                 <h3>الفلسفة</h3>
                 <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <a href="path-to-your-book.pdf" download></a>
-                    <button class="download-button">تحميل</button>
+                    <i class="fas fa-download"></i>
+                    <a href="https://drive.google.com/file/d/1CKRru7bl_x1sRSpBoP8AGx2wz_iFk5vw/view?usp=sharing" class="download-button" download>تحميل</a>
                 </div>
                 <span class="rating">⭐⭐⭐⭐⭐</span>
             </div>
         </div>
-    </div>
-    
+    </div>    
     <div class="external-books-section">
+        <div class="books-section">
+            <!-- طبقة التغطية الشفافة فوق البطاقات -->
+            <div class="overlay">
+                <div class="warning-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>هذه الخدمة غير متاحة في الوقت الحالي. شكرًا لمتابعتنا.</p>
+                </div>
+            </div>
         <h2>كتب خارجية</h2>
         <div class="card-container">
-            <div class="card">
-                <div class="card-icon">📘</div>
-                <h3>كتاب المعاصر - عربي</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📗</div>
-                <h3>كتاب المعاصر - إنجليزي</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📚</div>
-                <h3>كتاب المعاصر - رياضيات</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📖</div>
-                <h3>كتاب المعاصر - علوم</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-icon">📙</div>
-                <h3>كتاب المعاصر - تاريخ</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-icon">📕</div>
-                <h3>كتاب المعاصر - جغرافيا</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-icon">📓</div>
-                <h3>كتاب المعاصر - فلسفة</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-icon">📔</div>
-                <h3>كتاب المعاصر - تكنولوجيا</h3>
-                <div class="button-container">
-                    <button class="view-button">رؤية</button>
-                    <button class="download-button">تحميل</button>
-                </div>
             </div>
         </div>
     </div>
@@ -217,6 +174,22 @@
     <section class="ratings-section">
         <h2>التقييمات</h2>
         <div class="rating-container">
+            <div class="rating-card">
+                <h3>تقييمات اسبوعي الرابع و ادات منزلي/ صفي </h3>
+                <div class="stars">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                </div>
+                <p>لكل المواد بدون حل </p>
+                <a href="https://drive.google.com/file/d/1Bg9_VwuBczdkzyg6hcGRhYzwuq_9P6Uf/view?usp=sharing" class="download-btn" download>تحميل</a>
+            </div>
+            <div class="rating-card">
+                <h3>فلسفة</h3>
+                <div class="stars">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                </div>
+                <p>حل وانت مطمن</p>
+                <a href="https://youtu.be/DI0NEIy1VTg?si=1TzQ47Ss7MBsCRBT" class="download-btn">تحميل</a>
+            </div>
             <div class="rating-card">
                 <h3>فلسفة</h3>
                 <div class="stars">
@@ -231,7 +204,7 @@
                     <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
                 </div>
                 <p>حل وانت مطمن</p>
-                <a href="link-to-book-english.pdf" class="download-btn">تحميل</a>
+                <a href="https://youtu.be/ZCd4OSLHXwc?si=8Zne6oZ7Xyw4QcyM" class="download-btn">تحميل</a>
             </div>
             <div class="rating-card">
                 <h3>علوم</h3>
@@ -247,7 +220,7 @@
                     <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
                 </div>
                 <p>حل وانت مطمن</p>
-                <a href="https://drive.google.com/file/d/1P_qUZashk5Ej46hraTg2P36Kb70Sx5wI/view?usp=sharing" class="download-btn">تحميل</a>
+                <a href="https://youtu.be/6MhZ1a99fGs?si=_h7vDnUwkH4LrPoH" class="download-btn">تحميل</a>
             </div>
             <div class="rating-card">
                 <h3>عربي</h3>
@@ -255,7 +228,7 @@
                     <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
                 </div>
                 <p>حل وانت مطمن</p>
-                <a href="link-to-book-history.pdf" class="download-btn">تحميل</a>
+                <a href="https://youtu.be/jBHHZKEn3ac?si=LyJuThwNBmh4O2i5" class="download-btn">تحميل</a>
             </div>
             <div class="rating-card">
                 <h3>رياضة</h3>
@@ -263,34 +236,36 @@
                     <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
                 </div>
                 <p>حل وانت مطمن</p>
-                <a href="link-to-book-history.pdf" class="download-btn">تحميل</a>
+                <a href="https://youtu.be/WGO5m9zrq5U?si=dTbe3Sh4mwDkIZ9K" class="download-btn">تحميل</a>
             </div>
         </div>
-        <div class="grade-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>المجموع</th>
-                  <th>المواظبة والسلوك</th>
-                  <th>الاختبارات الأسبوعية</th>
-                  <th>كشكول الحصة الواجب</th>
-                  <th>تقييم الشهر الثاني</th>
-                  <th>تقييم الشهر الأول</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>70</td>
-                  <td>10</td>
-                  <td>15</td>
-                  <td>15</td>
-                  <td>15</td>
-                  <td>15</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>          
-    </section>
+        <section id="grades" class="grades-section">
+            <h2>الدرجات</h2>
+            <div class="grade-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>المجموع</th>
+                    <th>المواظبة والسلوك</th>
+                    <th>الاختبارات الأسبوعية</th>
+                    <th>كشكول الحصة الواجب</th>
+                    <th>تقييم الشهر الثاني</th>
+                    <th>تقييم الشهر الأول</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>70</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>15</td>
+                    <td>15</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>          
     <div class="tips-section" id="tips">
         <h2>نصائح</h2>
         <div class="tip" id="tip1">

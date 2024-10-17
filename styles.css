@@ -2594,3 +2594,496 @@ header {
     display: inline-block; /* جعل الرابط كزر */
     text-align: center; /* محاذاة النص في المنتصف */
 }
+.button-container {
+    display: flex;
+    gap: 10px; /* المسافة بين الأزرار */
+}
+
+.download-button {
+    padding: 10px 15px;
+    background-color: #008CBA; /* لون زر التحميل */
+    color: white;
+    text-decoration: none; /* إزالة الخط السفلي من الرابط */
+    display: inline-block; /* جعل الرابط كزر */
+    text-align: center; /* محاذاة النص في المنتصف */
+    border-radius: 5px; /* زاوية دائرية */
+    border: none; /* إزالة الحدود */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden; /* لإخفاء الزوايا الزائدة */
+}
+
+.download-button {
+    border-radius: 20px;
+}
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+.card:hover {
+    transform: scale(1.05); /* تكبير البطاقة */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* إضافة ظل */
+    transition: all 0.3s ease; /* انتقال سلس */
+}
+
+.download-button:hover {
+    background-color: #005f8d; /* تغيير لون الخلفية */
+}
+.card {
+    perspective: 1000px; /* لتعزيز العمق */
+}
+
+.card:hover {
+    transform: rotateY(10deg);
+}
+body {
+    font-family: 'Roboto', sans-serif; /* اختر خط جميل */
+    font-size: 16px; /* حجم نص مناسب */
+}
+/* تصميم البطاقة */
+.card {
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* أيقونة الكتاب */
+.icon img {
+    width: 60px;
+    height: 60px;
+}
+
+/* العنوان */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* زر التحميل */
+.download-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.download-button i {
+    font-size: 30px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+body {
+    background-color: #f0f4f8; /* لون خلفية لطيف */
+    font-family: 'Arial', sans-serif; /* اختيار خط بسيط */
+}
+
+/* تصميم البطاقة */
+.card {
+    position: relative;
+    width: 220px; /* زيادة العرض قليلاً */
+    height: 320px; /* زيادة الارتفاع قليلاً */
+    background-color: #ffffff; /* خلفية بيضاء */
+    border-radius: 20px; /* حواف مستديرة */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* تأثير الظل */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 15px; /* زيادة الهامش قليلاً */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* حركة خفيفة عند التمرير */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); /* زيادة الظل عند التمرير */
+}
+
+/* أيقونة الكتاب */
+.icon img {
+    width: 80px; /* زيادة حجم الأيقونة */
+    height: 80px; /* زيادة حجم الأيقونة */
+}
+
+/* العنوان */
+.title {
+    font-size: 20px; /* زيادة حجم الخط */
+    font-weight: bold;
+    color: #333; /* لون داكن للنص */
+    margin: 10px 0; /* إضافة فراغات حول العنوان */
+}
+
+/* زر التحميل */
+.download-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px; /* زيادة الارتفاع للزر */
+    background-color: #007bff;
+    border-radius: 0 0 20px 20px; /* حواف مستديرة من الأسفل */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease; /* تأثير التغيير في اللون */
+}
+
+.download-button:hover {
+    background-color: #0056b3; /* تغيير اللون عند التمرير */
+    transform: scale(1.05); /* تأثير التحريك عند التمرير */
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.button {
+    background-color: #007bff; /* اللون الأزرق */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3; /* لون عند التمرير */
+}
+.button {
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+.button {
+    background-color: #28a745; /* لون الزر */
+    color: white;
+    padding: 15px 20px; /* تكبير حجم الزر */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* عرض الزر بالكامل */
+}
+
+.button:hover {
+    background-color: #218838;
+    transform: scale(1.05); /* تكبير الزر عند التمرير */
+}
+
+/* أيقونات للزر */
+.button i {
+    margin-left: 10px;
+}
+/* تأثير الظهور عند التمرير */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.book-section {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.book-section.visible {
+    opacity: 1;
+}
+/* إضافة الخلفية الشفافة فوق المربع */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة بضبابية 50% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10; /* لضمان أن العنصر يكون فوق المحتوى */
+}
+
+/* تصميم الرسالة التحذيرية */
+.warning-message {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.8); /* خلفية حمراء نصف شفافة للتحذير */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ظل لجعل المربع يبدو بارزًا */
+}
+
+.warning-message i {
+    font-size: 50px;
+    color: yellow; /* لون المثلث التحذيري */
+    margin-bottom: 10px;
+}
+
+/* تنسيق النص تحت المثلث */
+.warning-message p {
+    margin: 0;
+    font-size: 18px;
+}
+/* التأكد من أن التحذير يتناسب مع جميع أحجام الشاشات */
+.books-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* يمكنك تحديد الارتفاع حسب تصميمك */
+}
+
+@media (max-width: 768px) {
+    .warning-message {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .warning-message i {
+        font-size: 40px;
+    }
+}
+.news-section {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.news-slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.news-item {
+    min-width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.news-slider {
+    animation: slideNews 15s linear infinite;
+}
+
+@keyframes slideNews {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.news-section {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden; /* إضافة هذه السطر لإخفاء المحتوى الزائد */
+    position: relative;
+}
+
+.news-slider {
+    display: flex;
+    width: max-content; /* يتسع فقط لمحتوى الأخبار */
+    position: relative;
+    white-space: nowrap; /* يمنع التفاف النص */
+}
+
+.news-item {
+    min-width: 300px; /* ضبط حجم الأخبار */
+    margin-right: 20px; /* مسافة بين الأخبار */
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: inline-block; /* يساعد في التحرك الجيد */
+}
+
+.news-slider {
+    animation: slideNews 10s linear infinite;
+}
+
+@keyframes slideNews {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.grades-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grades-section h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .grade-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .grade-table th, .grade-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .grade-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .grade-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .grade-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .grade-table td {
+    font-weight: bold;
+  }
+  /* تنسيق قسم الدرجات */
+.grades-section {
+    background-color: #f4f4f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* التحكم في العرض */
+    overflow-x: auto; /* للسماح بتمرير الجدول على الشاشات الصغيرة */
+  }
+  
+  .grades-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .grade-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed; /* يساعد في التوافق مع مختلف الأحجام */
+  }
+  
+  .grade-table th, .grade-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .grade-table th {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .grade-table td {
+    background-color: #ecf0f1;
+  }
+  
+  .grade-table tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  .grade-table tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  .grade-table td {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* استجابة للموبايل */
+  @media screen and (max-width: 768px) {
+    .grade-table table {
+      font-size: 14px;
+    }
+  
+    .grade-table th, .grade-table td {
+      padding: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .grades-section {
+      padding: 10px;
+    }
+  
+    .grade-table table {
+      font-size: 12px;
+      display: block;
+      overflow-x: auto; /* السماح بالتمرير الأفقي */
+    }
+  
+    .grade-table th, .grade-table td {
+      padding: 6px;
+    }
+  }
+  
